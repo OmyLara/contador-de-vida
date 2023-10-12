@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+
+html, body{
+    background-color: #edca5f;
+
+}
+
+.App{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+    font-family: Lato, sans-serif;
+
+}
+
+.logo-contenedor{
+    width: 20%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    position:sticky;
+}
+
+.App .buti{
+    width: 100%;
+    display: grid;
+    justify-content: center;
+
+}
+.App .buti .anadir{
+    background-color: #05c354;
+}
+
+.App .buti .anadir:hover{
+    background-color:#0929c8;    
+
+}
+
+
+.contenedor-principal{
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    margin-top: 5%;
+}
+
+.contenedor-principal .primer{
+    width: 20%;
+    height: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+}
+
+.contenedor-principal .segundo{
+    width: 20%;
+    height: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+}
+
+
